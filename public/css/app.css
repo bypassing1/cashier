@@ -1,0 +1,9 @@
+*{
+    scrollbar-color: rgb(99, 160, 187) rgb(51, 111, 119);
+}
+
+.barcode {
+    font-family: "Libre Barcode 39", serif;
+  font-weight: 400;
+  font-style: normal;
+}
