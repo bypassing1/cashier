@@ -19,4 +19,15 @@ class ProductController extends Controller
         $product = Product::with('category')->findOrFail($id);
         return view('partials.product-detail', compact('product'));
     }
+    public function getSelectedProducts(Request $request)
+{
+    $ids = $request->query('ids'); // Get IDs from query parameters
+
+    if (!$ids) {
+        return response()->json([]);
+    }
+
+    $products = Product::whereIn('id', explode(',', $ids))->get(); // Fetch products
+    return response()->json($products);
+}
 }

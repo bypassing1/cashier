@@ -18,7 +18,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-900 text-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
     <script src="{{asset('js/product-selection.js')}}"></script>
     <script src="{{asset('js/filter-search.js')}}"></script>
     <div class="flex h-screen overflow-hidden">

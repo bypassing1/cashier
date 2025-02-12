@@ -4,7 +4,7 @@
         {{-- Product Detail --}}
     </div>
     <div class="w-full bg-cyan-500 hover:bg-cyan-600 py-2 px-4 rounded transition duration-300">
-        <button class="w-full text-xl font-semibold text-white transition duration-300 cursor-pointer">
+        <button class="w-full text-xl font-semibold text-white transition duration-300 cursor-pointer" id="beli-button">
             Beli
         </button>
     </div>
